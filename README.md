@@ -46,9 +46,13 @@ The land amount affect on price:
 
 We can se that there are larger housing prices for smaller areas of land rather than larger areas of land. 
 
-Then, there are the following pair plots:
+Then, there are the following pair plots for some of the dataset:
 
-![Housing Pairplots](https://user-images.githubusercontent.com/104324776/165000156-52997cc3-98de-485c-896f-764a20759247.png)
+![Pairplot Project](https://user-images.githubusercontent.com/104324776/165000508-0c3651d6-f75f-4f0a-ac13-783238d99893.png)
+
+We can see that the number of bathrooms and bedroooms is correlated to the total rooms in the house. Other than these variables being clearly positively correlated, there does not appear to be other clearly correlated variables. We can also see that for the building area column and the land column, most of the data is within a certain range with only a few outliers. 
 
 
+
+My plan is to predict the housing prices based on some of the numerical or categorical variables given in the dataset as well as to see the various affects these variables have on the housing prices. These variables mainly include type, rooms, distance, bed, bath, car, landsize, and building area. 
 
