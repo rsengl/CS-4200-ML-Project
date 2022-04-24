@@ -55,4 +55,4 @@ We can see that the number of bathrooms and bedroooms is correlated to the total
 
 
 My plan is to predict the housing prices based on some of the numerical or categorical variables given in the dataset as well as to see the various affects these variables have on the housing prices. These variables mainly include type, rooms, distance, bed, bath, car, landsize, and building area. 
-
+So far from the findings, we can see that car spaces, number of total rooms, building area, number of bedrooms, and number of bathrooms have a positive affect on the housing prices. Additionally, the housing price and the region the house is located in have a big affect on the price as well. 
