@@ -52,6 +52,11 @@ Then, there are the following pair plots for some of the dataset:
 
 We can see that the number of bathrooms and bedroooms is correlated to the total rooms in the house. Other than these variables being clearly positively correlated, there does not appear to be other clearly correlated variables. We can also see that for the building area column and the land column, most of the data is within a certain range with only a few outliers. 
 
+Then, we also have the following aggregate plot 
+
+![Aggregate Plot](https://user-images.githubusercontent.com/104324776/165621778-eec9b472-e32c-4a22-b7da-737ee7319425.png)
+
+This comes from a groupby, grouping type by price and then finding the mean of these prices. Then, this data was graphed against the number of bedrooms, as the bedrooms are a key component in find the housing prices. We can see that the mean price does in fact increase as the number of bedrooms increases. 
 
 
 My plan is to predict the housing prices based on some of the numerical or categorical variables given in the dataset as well as to see the various affects these variables have on the housing prices. These variables mainly include type, rooms, distance, bed, bath, car, landsize, and building area. 
