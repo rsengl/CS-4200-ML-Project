@@ -1,4 +1,4 @@
-#### Part One
+# Part One
 The link to the dataset used for the code and the graphs is as follows:
 https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot?select=melb_data.csv
 
@@ -64,11 +64,19 @@ My plan is to predict the housing prices based on some of the numerical or categ
 So far from the findings, we can see that car spaces, number of total rooms, building area, number of bedrooms, and number of bathrooms have a positive affect on the housing prices. Additionally, the housing price and the region the house is located in have a big affect on the price as well.
 
 
-#### Part Two
+# Part Two
 
-# Part 1
+### Part 1
 
+#### Question 1
 ![Distributions of Price](https://user-images.githubusercontent.com/104324776/166166301-070c6067-d380-47a4-8011-3a4b4b84ad51.png)
 
 We can see from the distribution graph that most of the prices are around 1,000,000. This is confirmed by the statstics description which states the mean is 1,075,684. Additionally, for price, the max price was around 9,000,000 while the minimum price was around 85,000. The standard deviation for price is 639,310. In regards to other important variables, for rooms the mean number of rooms is approximately 3, with the minimum number being 1 room and the maximum being 10 rooms. For bedrooms specifically, the mean is about 3 bedrooms, and the minimum is 0 and the max is 20. For bathrooms, the mean is around 2 bathrooms, with the min and max being 0 and 8 respectively. Other important statistics include those of number of car spaces and Landsize. For car spaces, the mean is around 2 car spaces, and the min and max are 0 and 10. For land size, the mean is 558.4, and the min and max are 0 and 433014. 
 
+#### Question 2
+The empty rows of building area were replaced with 0 due to the landsize having 0 values as well. The empty rows of car were also replaced with 0. Finally, the empty rows of year built were replaced with random values between the oldest and newest year built. 
+
+#### Question 5
+
+The following variables were dropped: 'Suburb', 'Date', 'Address', 'SellerG', 'CouncilArea', 'Longtitude', 'Lattitude','Propertycount', 'YearBuilt'. Due to most of these variables being unique identifiers, or too specific, they were dropped. Year built was dropped due to the age of a property generally not having a clear consistent positive or negative affect on the housing prices. While postcode is somewhat of a unique identifier, it was kept because the area a house is located in can potentially have a great affect on the price. 
+Method and regionname were encoded using label encoding due to the wide range of values within these variables. On the other hand, because type had only 3 possibilities in this dataset, one-hot encoding was used. 
