@@ -1,4 +1,4 @@
-### Part One
+#### Part One
 The link to the dataset used for the code and the graphs is as follows:
 https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot?select=melb_data.csv
 
@@ -61,4 +61,14 @@ This comes from a groupby, grouping type by price and then finding the mean of t
 
 
 My plan is to predict the housing prices based on some of the numerical or categorical variables given in the dataset as well as to see the various affects these variables have on the housing prices. These variables mainly include type, rooms, distance, bed, bath, car, landsize, and building area. 
-So far from the findings, we can see that car spaces, number of total rooms, building area, number of bedrooms, and number of bathrooms have a positive affect on the housing prices. Additionally, the housing price and the region the house is located in have a big affect on the price as well. 
+So far from the findings, we can see that car spaces, number of total rooms, building area, number of bedrooms, and number of bathrooms have a positive affect on the housing prices. Additionally, the housing price and the region the house is located in have a big affect on the price as well.
+
+
+#### Part Two
+
+# Part 1
+
+![Distributions of Price](https://user-images.githubusercontent.com/104324776/166166301-070c6067-d380-47a4-8011-3a4b4b84ad51.png)
+
+We can see from the distributions that most of the prices are around 1,000,000.
+
