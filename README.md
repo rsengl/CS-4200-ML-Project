@@ -85,14 +85,21 @@ Method and regionname were encoded using label encoding due to the wide range of
 
 #### Questions 2 and 3
 
-![Linear Regression Accuracy](https://user-images.githubusercontent.com/104324776/166167306-f9fb36ef-ea04-4fbc-b7a5-e3332f11a10f.png)
+![Linear Regression Accuracy](https://user-images.githubusercontent.com/104324776/166167452-d7b7d948-be2c-4c75-8063-808751882d91.png)
 
-We can see that when the percentage of testing data is 10%, the accuracy is the highest at around 65%. Additionally, as the percentage of testing increases, the accuracy also decreases. 
+We can see that when the percentage of testing data is 10%, the accuracy is the highest at around 61%. Additionally, as the percentage of testing increases, the accuracy also decreases. 
 
 ![Accuracy SGD](https://user-images.githubusercontent.com/104324776/166167384-e35755e9-3133-4123-892d-284e4839d4d9.png)
 
 In the case of using the SGD algorithm, the accuracy is not positive. This most likely indicates this is not the optimal model for this type of dataset and problem. 
 
+#### Question 4
 
+![Residuals Plot](https://user-images.githubusercontent.com/104324776/166167513-31c07f53-595a-4218-9db1-440b123c3eca.png)
 
+We can see that most of the residuals are below the x-axis. This could indicate that most of the predicted values were bigger than the actual values. Additionally, we can see that the R^2 value is .449. This means that around 45% of the variance is explained by the independent variables. The closer to 1 the R^2 is, the better the model generally. Since the R^2 in this case is .449, the model is not good. 
 
+#### Question 5
+
+#### Question 6
+We can see that by the accuracy alone that the linear regression model is better in this case. This makes sense because linear regressions are better at handling cases where the dependent variable can take on a wide range of values. 
