@@ -80,3 +80,19 @@ The empty rows of building area were replaced with 0 due to the landsize having 
 
 The following variables were dropped: 'Suburb', 'Date', 'Address', 'SellerG', 'CouncilArea', 'Longtitude', 'Lattitude','Propertycount', 'YearBuilt'. Due to most of these variables being unique identifiers, or too specific, they were dropped. Year built was dropped due to the age of a property generally not having a clear consistent positive or negative affect on the housing prices. While postcode is somewhat of a unique identifier, it was kept because the area a house is located in can potentially have a great affect on the price. 
 Method and regionname were encoded using label encoding due to the wide range of values within these variables. On the other hand, because type had only 3 possibilities in this dataset, one-hot encoding was used. 
+
+### Part 3
+
+#### Questions 2 and 3
+
+![Linear Regression Accuracy](https://user-images.githubusercontent.com/104324776/166167306-f9fb36ef-ea04-4fbc-b7a5-e3332f11a10f.png)
+
+We can see that when the percentage of testing data is 10%, the accuracy is the highest at around 65%. Additionally, as the percentage of testing increases, the accuracy also decreases. 
+
+![Accuracy SGD](https://user-images.githubusercontent.com/104324776/166167384-e35755e9-3133-4123-892d-284e4839d4d9.png)
+
+In the case of using the SGD algorithm, the accuracy is not positive. This most likely indicates this is not the optimal model for this type of dataset and problem. 
+
+
+
+
