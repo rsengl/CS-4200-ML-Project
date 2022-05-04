@@ -100,6 +100,12 @@ In the case of using the SGD algorithm, the accuracy is not positive. This most 
 We can see that most of the residuals are below the x-axis. This could indicate that most of the predicted values were bigger than the actual values. Additionally, we can see that the R^2 value is .449. This means that around 45% of the variance is explained by the independent variables. The closer to 1 the R^2 is, the better the model generally. Since the R^2 in this case is .449, the model is not good. 
 
 #### Question 5
+![Predicted Values vs  Test Values](https://user-images.githubusercontent.com/104324776/166609580-621aa002-8c86-4fa7-9e19-07a60921effb.png)
+
+The following article was used for the visualization : https://towardsdatascience.com/implementing-sgd-from-scratch-d425db18a72c.
+
+From the graph, we can see that the predicted value, shown in blue, only span a small portion of the actual price values. Hence, we can see that the SGD does not work well which is backed up by the low accuracy. 
+
 
 #### Question 6
-We can see that by the accuracy alone that the linear regression model is better in this case. This makes sense because linear regressions are better at handling cases where the dependent variable can take on a wide range of values. 
+MSE was also calculated per the article since the MSE is a good indicator of the quality of a model. From the high level of MSE calculated, it is an indicator that the SGD model is not best for this type of data. Additionally, we can see that by the accuracy values and the graph of predicted versus actual values that the linear regression is better.  Hence, the linear regression model is better in this case. This makes sense because linear regressions are better at handling cases where the dependent variable can take on a wide range of values. 
